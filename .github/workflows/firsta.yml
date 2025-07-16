@@ -1,0 +1,10 @@
+name: First W
+on: workflow_dispatch
+jobs:
+  f-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Greeting
+        run: echo "Sample greeting here!"
+      - name: Exit Job
+        run: echo "Done"
